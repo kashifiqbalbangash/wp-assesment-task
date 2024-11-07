@@ -15,7 +15,7 @@ This WordPress theme is created from scratch to showcase a portfolio of projects
   - Project End Date
   - Project URL
 - **Custom Archive Page**: A custom template for listing all projects with filtering options based on Start and End Dates.
-- **Both Required Pages**: Both pages created,the home page is dynamic by using block based approach, while blog page is static and divided by using template parts approach.
+- **Both Required Pages**: Both pages created,the home page is dynamic by using custom ACF Block based approach, while blog page is static and divided by using template parts approach.
 - **Custom Single Post Template**: A template to display individual project details in a visually appealing manner.
 - **Dynamic Navigation Menu**: A dynamic navigation menu supporting multi-level dropdowns.
 - **Custom REST API Endpoint**: A custom API endpoint that returns project data in JSON format.

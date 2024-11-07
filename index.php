@@ -1,6 +1,19 @@
-<?php get_header(); ?>
+<?php 
+get_header(); 
+?>
 
-<h1>Welcome to My Custom Theme</h1>
-<p>This is the main index page.</p>
+    <!-- Hero Section -->
+    <?php
+    get_template_part('template-parts/blog-page-parts/blog-hero-section', 'page');
+    ?>
+    <!-- Recent Blog Posts Section -->
+    <?php
+    get_template_part('template-parts/blog-page-parts/recent-blog-section', 'page');
+    ?>
+
+    <!-- Highlighted Article Section -->
+    <?php
+    get_template_part('template-parts/blog-page-parts/highlighted-article-section', 'page');
+    ?>
 
 <?php get_footer(); ?>

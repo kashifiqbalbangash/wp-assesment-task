@@ -71,6 +71,10 @@ A custom REST API endpoint is available to fetch project data in JSON format.
 
 `GET /wp-json/custom/v1/projects`
 
+### Run like
+
+`http://localhost/wp-assesment-kashifiqbal/wp-json/custom/v1/projects`
+
 ### Parameters
 
 - `start_date` (optional): Filter projects by start date (YYYY-MM-DD).

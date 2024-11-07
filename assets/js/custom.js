@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function () { var dropdowns = document.querySelectorAll('.dropdown-toggle'); dropdowns.forEach(function (dropdown) { dropdown.addEventListener('click', function (e) { e.preventDefault(); var parent = dropdown.parentElement; var menu = parent.querySelector('.dropdown-menu'); menu.classList.toggle('show'); }); }); });

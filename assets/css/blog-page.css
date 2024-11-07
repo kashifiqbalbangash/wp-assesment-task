@@ -1,0 +1,60 @@
+
+        /* Hero Section */
+        .wp-blog-hero-section {
+            position: relative;
+            background: url('https://as2.ftcdn.net/v2/jpg/08/52/61/01/1000_F_852610192_mDCPHk42G9qHrROdQYx93eHuk5AMFpQQ.jpg') center center/cover no-repeat;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+        .wp-blog-hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .wp-blog-hero-content {
+            position: relative;
+            z-index: 2;
+        }
+        .wp-blog-hero-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .wp-blog-hero-description {
+            font-size: 1.25rem;
+        }
+
+        /* Blog Section */
+        .wp-blog-section .wp-blog-card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .wp-blog-section .wp-blog-card:hover {
+            transform: scale(1.05);
+        }
+        .wp-blog-section .wp-blog-card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+        .wp-blog-section .wp-blog-card-text {
+            color: #555;
+            font-size: 1rem;
+        }
+
+        /* Highlighted Article */
+        .wp-blog-highlighted-article {
+            background-color: #f8f9fa;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }

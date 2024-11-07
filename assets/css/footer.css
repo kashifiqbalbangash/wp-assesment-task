@@ -1,0 +1,43 @@
+/* Footer Styles */
+    .wp-blog-footer-section {
+        background-color: #333;
+        color: #fff;
+    }
+    .wp-blog-footer-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #f8f9fa;
+        margin-bottom: 1rem;
+    }
+    .wp-blog-footer-text {
+        color: #d1d1d1;
+        font-size: 0.95rem;
+    }
+    .wp-blog-footer-links li {
+        margin-bottom: 0.5rem;
+    }
+    .wp-blog-footer-links a {
+        color: #d1d1d1;
+        text-decoration: none;
+    }
+    .wp-blog-footer-links a:hover {
+        color: #007bff;
+    }
+
+    /* Social Media Icons */
+    .wp-blog-social-icons a {
+        font-size: 1.2rem;
+        color: #d1d1d1;
+        margin-right: 10px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .wp-blog-social-icons a:hover {
+        color: #007bff;
+    }
+
+    /* Footer Bottom */
+    .wp-blog-footer-bottom {
+        background-color: #222;
+        color: #888;
+    }

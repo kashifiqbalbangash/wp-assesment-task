@@ -63,6 +63,10 @@ If you are using Advanced Custom Fields (ACF) for custom fields:
   - `Project End Date` (Date Picker)
   - `Project URL` (URL)
 
+### Admin Credendtials
+`Username: admin `
+`Password: Admin123!@# `
+
 ## API Endpoint
 
 A custom REST API endpoint is available to fetch project data in JSON format.
